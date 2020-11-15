@@ -1,17 +1,17 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: actuator-sample
+  name: petdemo
 spec:
   replicas: 2
   template:
     metadata:
       labels:
-        app: actuator-sample
+        app: petdemo
     spec:
       containers:
         - name: actuator-sample
-          image: registry.gitlab.com/marcolenzo/actuator-sample
+          image: registry.gitlab.com/rickmmmmm/petdemo
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
