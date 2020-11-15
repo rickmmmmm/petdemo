@@ -1,4 +1,4 @@
-package com.pet.restserviceMySQL;
+package com.pet.restserviceMySQL.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

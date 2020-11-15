@@ -8,4 +8,10 @@ import com.pet.restserviceMySQL.entity.Pet;
 
 @RepositoryRestResource(exported = false)
 public interface PetRepository extends JpaRepository<Pet, String>{
+
+    Pet findByName(String name);
+
+    void deleteByName(String name);
+
+
 }

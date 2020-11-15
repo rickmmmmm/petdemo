@@ -14,10 +14,10 @@
 	<name>rest-service-MySQL</name>
 	<description>Family pet tracker service</description>
 
-	<properties>
+	<!--<properties>
 		<java.version>15</java.version>
 	</properties>
-
+-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
